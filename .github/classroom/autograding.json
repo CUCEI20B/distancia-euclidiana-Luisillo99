@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "test",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest",
+      "setup": "sudo apt-get install python3-pytest",
+      "run": "python3 -m pytest",
       "input": "",
       "output": "",
       "comparison": "included",
